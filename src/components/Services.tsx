@@ -1,7 +1,7 @@
 function Services() {
   const services = [
     {
-      icon: "share_location",
+      icon: "search",
       text: "GPS Navigation Systems",
     },
     {
@@ -39,7 +39,7 @@ function Services() {
       <div className="divide">
         <div className="divideBorder"></div>
       </div>
-      <div className=" grid grid-cols-4 justify-between ">
+      <div className=" grid grid-cols-2 lg:grid-cols-4 gap-2 justify-between ">
         {services.map((services, index) => (
           <div className=" flex flex-row gap-2 items-center " key={index}>
             <span className="material-symbols-outlined bg-[#fff] border px-1 py-1 rounded-md ">

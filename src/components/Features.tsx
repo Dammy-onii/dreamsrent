@@ -56,7 +56,7 @@ const Features = () => {
       <div className="divide">
         <div className="divideBorder"></div>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
         {features.map((feature, index) => (
           <div className="flex flex-row gap-2 items-center" key={index}>
             <span className="material-symbols-outlined bg-white border px-2 py-2 rounded-md text-teal-600">
